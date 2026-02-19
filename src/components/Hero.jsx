@@ -10,7 +10,7 @@ const Hero = () => {
     return (
         <div
             name="home"
-            className="h-screen w-full bg-gradient-to-b from-white via-white to-gray-100 dark:from-black dark:via-black dark:to-gray-900 text-black dark:text-white transition-colors duration-500"
+            className="min-h-screen w-full pt-28 bg-gradient-to-b from-white via-white to-gray-100 dark:from-black dark:via-black dark:to-gray-900 text-black dark:text-white transition-colors duration-500"
         >
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
 
