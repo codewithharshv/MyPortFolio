@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Sphere, MeshDistortMaterial } from '@react-three/drei';
 import { Link } from 'react-scroll';
+import HeroImage from '../assets/profile.png';
 
 const Hero = () => {
     return (
@@ -62,9 +63,10 @@ const Hero = () => {
                     </motion.div>
                 </div>
 
-                {/* 3D Animation Section */}
-                <div className="hidden md:flex w-full md:w-1/2 h-full z-0 items-center justify-center">
-                    <div className="h-[500px] w-[500px]">
+                {/* Image Section */}
+                <div className="flex w-full md:w-1/2 h-full items-center justify-center relative">
+                    {/* 3D Sphere Background */}
+                    <div className="absolute top-0 left-0 w-full h-full -z-10 opacity-50">
                         <Canvas>
                             <ambientLight intensity={1} />
                             <directionalLight position={[3, 2, 1]} />
@@ -79,6 +81,19 @@ const Hero = () => {
                             <OrbitControls enableZoom={false} autoRotate />
                         </Canvas>
                     </div>
+
+                    <motion.div
+                        initial={{ opacity: 0, scale: 0.5 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ duration: 1 }}
+                        className="relative z-10"
+                    >
+                        <img
+                            src={HeroImage}
+                            alt="Harsh Vishwakarma"
+                            className="rounded-full w-64 h-64 md:w-96 md:h-96 object-cover shadow-lg shadow-neon border-4 border-neon"
+                        />
+                    </motion.div>
                 </div>
             </div>
         </div>
