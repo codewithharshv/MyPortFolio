@@ -1,16 +1,59 @@
-# React + Vite
+# MyPortFolio - Modern Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Portfolio Preview](public/vite.svg) <!-- You can replace this with a screenshot of your portfolio -->
 
-Currently, two official plugins are available:
+A premium, high-performance developer portfolio website built with React (Vite), Tailwind CSS, and Framer Motion. This portfolio features a modern glassmorphism design, interactive 3D elements, smooth animations, and full responsiveness.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- Standard Modern UI: Glassmorphism design with soft neon glow effects.
+- 3D Elements: Interactive 3D sphere and tilt effects using Three.js and React Parallax Tilt.
+- Animations: Smooth scroll reveal animations and typewriter effects.
+- Dark/Light Mode: Fully functional theme toggle with persistence.
+- Responsive: Fully optimized for Desktop, Tablet, and Mobile devices.
+- Contact Form: Integrated with EmailJS for real-time email functionality.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- Frontend: React (Vite), Tailwind CSS
+- Animations: Framer Motion, React Type Animation
+- 3D & Effects: @react-three/fiber, @react-three/drei, React Parallax Tilt
+- Icons: React Icons
+- Routing/Scroll: React Scroll
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Installation & Setup
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/codewithharshv/MyPortFolio.git
+   cd MyPortFolio
+   ```
+
+2. Install dependencies
+   ```bash
+   npm install
+   ```
+
+3. Run the development server
+   ```bash
+   npm run dev
+   ```
+
+4. Build for production
+   ```bash
+   npm run build
+   ```
+
+## 📧 Contact & Socials
+
+- Author: Harsh Vishwakarma
+- Email: [work.harry08@gmail.com](mailto:work.harry08@gmail.com)
+- LinkedIn: [Harsh Vishwakarma](https://www.linkedin.com/in/h-v-7498s)
+- GitHub: [codewithharshv](https://github.com/codewithharshv)
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+© 2026 Harsh Vishwakarma. All rights reserved.
